@@ -13,7 +13,7 @@ files = [
 z_slices = [0.25, 0.50, 0.75]
 
 vmin = 0.0
-vmax = 2.2
+vmax = 2.0
 
 for file, title in files:
     df = pd.read_csv(file)
